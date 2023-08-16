@@ -1,6 +1,5 @@
 import Repo from "@/app/components/Repo";
 import RepoDirs from "@/app/components/RepoDirs";
-import LoadingPage from "@/app/loading";
 import Link from "next/link";
 import { Suspense } from "react";
 
