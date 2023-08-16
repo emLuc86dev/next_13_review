@@ -2,7 +2,10 @@ import Link from "next/link";
 import { FaStar, FaCodeBranch, FaEye } from "react-icons/fa";
 
 async function fetchRepos() {
-  const response = await fetch("https://api.github.com/users/emLuc86dev/repos");
+  const response = await fetch(
+    "https://api.github.com/users/emLuc86dev/repos",
+    { next: { revalidate: 60 } }
+  );
 
   await new Promise((response) => setTimeout(response, 1000)); //wait 1 second
 
