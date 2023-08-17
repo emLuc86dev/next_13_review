@@ -8,7 +8,9 @@ const TeamPage = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere
         esse, inventore earum velit ipsa ad totam quidem optio deserunt?
       </p>
-      <Link href="/">Back Home</Link>
+      <Link href="/" className="btn btn-back">
+        Back Home
+      </Link>
     </div>
   );
 };
