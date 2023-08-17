@@ -14,7 +14,9 @@ const AboutPage = () => {
         maxime, laudantium quaerat facilis at aliquid distinctio necessitatibus
         modi ab non!
       </p>
-      <Link href="/">Back to Home</Link>
+      <Link href="/" className="btn btn-back">
+        Back to Home
+      </Link>
     </div>
   );
 };
